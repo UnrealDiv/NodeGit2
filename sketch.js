@@ -1,10 +1,9 @@
-const sizes = {
-  width:window.innerWidth,
-  height:window.innerHeight
-}
-
 function setup() {
-  createCanvas(sizes.width, sizes.innerHeight);
+  const sizes = {
+    width:window.innerWidth,
+    height:window.innerHeight
+  }
+  createCanvas(sizes.width, sizes.height);
 }
 
 function draw() {
